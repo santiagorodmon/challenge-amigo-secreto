@@ -35,3 +35,33 @@ function mostrarAmigos() {
     }
 }
 
+
+function sortearAmigo(){
+
+    if (amigos.length > 1){
+
+        //crear un numero aleatorio
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+        console.log('el inidice aleatorio es: ' + indiceAleatorio);
+        console.log(amigos[indiceAleatorio]);
+        
+        //asignar a varible nombreElegido segun el indice aleatorio
+        let nombreElegido = amigos[indiceAleatorio];
+        
+        //seleccionar contenedor en HTML
+        let contenedor = document.getElementById('resultado');
+
+        //limpiar contenedor
+        contenedor.innerHTML = "";
+
+        //crear elemento H1 con nombreElegido
+        let item2 = document.createElement('h1');
+        item2.textContent = `¡Tu amigo secreto es: ${nombreElegido}!`;
+
+        //a;adir al DOM
+        contenedor.appendChild(item2);
+    } else {
+        alert('No hay suficientes nombre para sortear el amigo secreto!')
+    }
+    
+}

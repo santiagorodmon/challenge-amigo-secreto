@@ -7,8 +7,9 @@ function agregarAmigos(){
 
     if(nombre != ""){
         amigos.push(nombre);
-        console.log("Lista de amigos:", amigos);
+        console.log(amigos);
         limpiarCaja();
+        mostrarAmigos();
     } else {
         alert('Por favor, inserte un nombre.');
     }    
@@ -18,3 +19,19 @@ function agregarAmigos(){
 function limpiarCaja(){
     document.querySelector('#amigo').value = '';
 } 
+
+
+function mostrarAmigos() {
+    //Busca en el html el id listaAmigos y borramos el contenido de variable lista
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";
+
+    //recorrer arreglo amigos y por cada item se crea un <li> y se le asigna el contenido de amigos[i] 
+    //y se agrega al elemnto <li> de html con el id listaAmigos
+    for (let i = 0; i < amigos.length; i++) {
+        let item = document.createElement('li');
+        item.textContent = amigos[i];
+        lista.appendChild(item);
+    }
+}
+

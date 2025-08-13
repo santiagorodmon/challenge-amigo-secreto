@@ -52,7 +52,17 @@ Ideal para aprender:
 
 ## 📁 Acceso al proyecto
 
-Puedes clonar este repositorio usando:
+Puedes acceder a la aplicacion usando:
 
 ```bash
-git clone https://github.com/santiagorodmon/challenge-amigo-secreto.git
+https://santiagorodmon.github.io/challenge-amigo-secreto/
+```
+
+## Tecnologías utilizadas
+- HTML
+- CSS
+- JavaScript
+
+## Autor
+| [<img src="https://drive.google.com/file/d/11vn-qqXZH8khdPJZvuqZiH96AB26xFeN/view?usp=sharing)" width=115><br><sub>Santiago Rodríguez Montaño</sub>](https://github.com/santiagorodmon) 
+| :---: |

@@ -11,10 +11,9 @@
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Estado del Proyecto](#estado-del-proyecto)
-- [Demostración de funciones](#demostración-de-funciones)
+- [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
 - [Acceso al Proyecto](#acceso-al-proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Contribuyentes](#personas-contribuyentes)
 - [Desarrollador del Proyecto](#personas-desarrolladoras-del-proyecto)
 
 ---
@@ -41,7 +40,7 @@ Ideal para aprender:
 
 ---
 
-## :hammer:Funcionalidades del proyecto
+## Funcionalidades del proyecto
 
 - Agregar nombres de amigos
 - Visualizar la lista ingresada
@@ -50,7 +49,7 @@ Ideal para aprender:
 
 ---
 
-## 📁 Acceso al proyecto
+## Acceso al proyecto
 
 Puedes acceder a la aplicacion usando:
 
@@ -58,11 +57,11 @@ Puedes acceder a la aplicacion usando:
 https://santiagorodmon.github.io/challenge-amigo-secreto/
 ```
 
-## Tecnologías utilizadas
+## Tecnologías Utilizadas
 - HTML
 - CSS
 - JavaScript
 
-## Autor
-| [<img src="https://drive.google.com/file/d/11vn-qqXZH8khdPJZvuqZiH96AB26xFeN/view?usp=sharing)" width=115><br><sub>Santiago Rodríguez Montaño</sub>](https://github.com/santiagorodmon) 
+## Desarrollador del Proyecto
+| [<img src="assets/foto perfil.jpg" width=115><br><sub>Santiago Rodríguez Montaño</sub>](https://github.com/santiagorodmon) 
 | :---: |
